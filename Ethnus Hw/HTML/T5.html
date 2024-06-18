@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-outer-container {
+  border: 2px solid #ccc;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+h2{
+    text-align: center ;
+    text-emphasis-color: blue;
+}
+    </style>
+</head>
+<body>
+    <h2>Registration form</h2>
+<div class="form-outer-container">
+  <div class="form-container">
+    <form>
+      <label>First Name</label>
+      <input type="text" placeholder="First Name"><hr>
+      <label>Last Name</label>
+      <input type="text" placeholder="Last Name"><hr>
+      <label>Email</label>
+      <input type="email" placeholder="Email"><hr>
+      <label>Password</label>
+      <input type="password" placeholder="Password"><hr>
+      <label>Re-enter Password</label>
+      <input type="password" placeholder="Re-enter Password"><hr>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><hr>
+      <label>Age:</label>
+      <input type="number" placeholder="Age"><hr>
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Phone Number"><hr>
+      <label>Address</label>
+      <textarea placeholder="Address"></textarea><hr>
+      <label>State</label>
+      <input type="text" placeholder="State"><hr>
+      <label>Country</label>
+      <select>
+        <option value="">Choose your country</option>
+        <!-- Add country options here -->
+      </select><hr>
+      <label>Languages known</label>
+      <input type="checkbox" id="english" name="languages" value="english">
+      <label for="english">English</label>
+      <input type="checkbox" id="kannada" name="languages" value="kannada">
+      <label for="kannada">Kannada</label>
+      <input type="checkbox" id="hindi" name="languages" value="hindi">
+      <label for="hindi">Hindi</label>
+      <input type="checkbox" id="telugu" name="languages" value="telugu">
+      <label for="telugu">Telugu</label><hr>
+      <input type="checkbox" id="declare" name="declare" value="true">
+      <label for="declare">Hereby I declare all the given details are true</label><hr>
+      <a href="#">Log in to Ethnus website</a><hr>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</div>
+</body>
+</html>
